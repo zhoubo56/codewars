@@ -1,4 +1,5 @@
 ﻿using System;
+using kyu8;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Testkyu8

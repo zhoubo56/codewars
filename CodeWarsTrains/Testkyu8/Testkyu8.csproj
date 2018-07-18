@@ -48,6 +48,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KataComplementaryDNATest.cs" />
+    <Compile Include="KataDecodeMorseCodeTest.cs" />
+    <Compile Include="KataIsThisTriangleTest.cs" />
     <Compile Include="KataOppositeNumberTest.cs" />
     <Compile Include="KataReplaceVowelTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KataComplementaryDNA.cs" />
+    <Compile Include="KataDecodeMorseCode.cs" />
+    <Compile Include="KataIsThisTriangle.cs" />
     <Compile Include="KataOppositeNumber.cs" />
     <Compile Include="KataReplaceVowel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
