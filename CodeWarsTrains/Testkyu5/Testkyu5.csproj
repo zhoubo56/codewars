@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="KataDirectionsReductionTest.cs" />
     <Compile Include="KataNumberOfTrailingZerosTest.cs" />
+    <Compile Include="KataPaginationHelperTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
