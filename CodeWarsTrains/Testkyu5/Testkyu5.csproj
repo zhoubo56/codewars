@@ -55,6 +55,7 @@
     <Compile Include="KataNumberOfTrailingZerosTest.cs" />
     <Compile Include="KataPaginationHelperTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmallfuckTest.cs" />
     <Compile Include="StringMergerTest.cs" />
   </ItemGroup>
   <ItemGroup>
