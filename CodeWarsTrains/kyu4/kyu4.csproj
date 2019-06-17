@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BiggerNumber.cs" />
     <Compile Include="CarMileageNumbers.cs" />
     <Compile Include="Simplexer.cs" />
     <Compile Include="SkyscrapersV1.cs" />

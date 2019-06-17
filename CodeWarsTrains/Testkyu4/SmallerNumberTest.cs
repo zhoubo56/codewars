@@ -1,7 +1,4 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-using kyu4;
+﻿using kyu4;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Testkyu4
