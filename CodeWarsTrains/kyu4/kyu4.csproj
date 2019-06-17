@@ -46,6 +46,7 @@
     <Compile Include="SkyscrapersV1.cs" />
     <Compile Include="Skyscrapers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmallerNumber.cs" />
     <Compile Include="StringsMix.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

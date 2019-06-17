@@ -53,6 +53,7 @@
     <Compile Include="SimplexerTest.cs" />
     <Compile Include="SkyscrapersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmallerNumberTest.cs" />
     <Compile Include="StringsMixTest.cs" />
   </ItemGroup>
   <ItemGroup>
