@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BiggerNumber.cs" />
     <Compile Include="CarMileageNumbers.cs" />
+    <Compile Include="ConnectFour.cs" />
     <Compile Include="Simplexer.cs" />
     <Compile Include="SkyscrapersV1.cs" />
     <Compile Include="Skyscrapers.cs" />

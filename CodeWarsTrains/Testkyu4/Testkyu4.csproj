@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="BiggerNumberTest.cs" />
     <Compile Include="CarMileageNumbersTest.cs" />
+    <Compile Include="ConnectFourTest.cs" />
     <Compile Include="SimplexerTest.cs" />
     <Compile Include="SkyscrapersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
