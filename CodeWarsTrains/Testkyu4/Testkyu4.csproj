@@ -52,6 +52,7 @@
     <Compile Include="BiggerNumberTest.cs" />
     <Compile Include="CarMileageNumbersTest.cs" />
     <Compile Include="ConnectFourTest.cs" />
+    <Compile Include="WarriorSelectMedianTest.cs" />
     <Compile Include="SimplexerTest.cs" />
     <Compile Include="SkyscrapersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,6 +63,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Commonn\Common.csproj">
+      <Project>{2a66d97d-9109-4a2d-b18e-9a25d5c9afc0}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\kyu4\kyu4.csproj">
       <Project>{c3f72a12-72d7-4791-bbdb-061f98ac9839}</Project>
       <Name>kyu4</Name>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsTrains", "CodeWarsTrains\CodeWarsTrains.csproj", "{4D07F3A5-C318-4B78-92A0-5BEDC7BDB44A}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kyu4", "kyu4\kyu4.csproj", "{C3F72A12-72D7-4791-BBDB-061F98AC9839}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testkyu4", "Testkyu4\Testkyu4.csproj", "{FBDC3BC4-AE0D-412B-A284-D7C289DEF5FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Commonn\Common.csproj", "{2A66D97D-9109-4A2D-B18E-9A25D5C9AFC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{FBDC3BC4-AE0D-412B-A284-D7C289DEF5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBDC3BC4-AE0D-412B-A284-D7C289DEF5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBDC3BC4-AE0D-412B-A284-D7C289DEF5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A66D97D-9109-4A2D-B18E-9A25D5C9AFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A66D97D-9109-4A2D-B18E-9A25D5C9AFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A66D97D-9109-4A2D-B18E-9A25D5C9AFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A66D97D-9109-4A2D-B18E-9A25D5C9AFC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
