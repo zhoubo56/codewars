@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base64Utils.cs" />
+    <Compile Include="ClosestWeight.cs" />
     <Compile Include="KataDirectionsReduction.cs" />
     <Compile Include="KataHumanReadableTime.cs" />
     <Compile Include="KataNumberOfTrailingZeros.cs" />
