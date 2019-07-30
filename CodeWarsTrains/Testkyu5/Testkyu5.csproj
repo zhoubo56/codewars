@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Base64UtilsTest.cs" />
     <Compile Include="ClosestWeightTest.cs" />
+    <Compile Include="JohannTest.cs" />
     <Compile Include="KataDirectionsReductionTest.cs" />
     <Compile Include="KataHumanReadableTimeTest.cs" />
     <Compile Include="KataNumberOfTrailingZerosTest.cs" />
