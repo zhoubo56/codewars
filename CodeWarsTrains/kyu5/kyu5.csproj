@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Base64Utils.cs" />
     <Compile Include="ClosestWeight.cs" />
+    <Compile Include="HistogramV1.cs" />
     <Compile Include="Johnann.cs" />
     <Compile Include="KataDirectionsReduction.cs" />
     <Compile Include="KataHumanReadableTime.cs" />
