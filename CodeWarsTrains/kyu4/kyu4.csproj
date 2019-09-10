@@ -45,6 +45,7 @@
     <Compile Include="CarMileageNumbers.cs" />
     <Compile Include="ConnectFour.cs" />
     <Compile Include="FactorialTail.cs" />
+    <Compile Include="MahjongPureHand.cs" />
     <Compile Include="WarriorSelectMedian.cs" />
     <Compile Include="Simplexer.cs" />
     <Compile Include="SkyscrapersV1.cs" />

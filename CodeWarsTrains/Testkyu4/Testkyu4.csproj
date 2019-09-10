@@ -53,6 +53,7 @@
     <Compile Include="CarMileageNumbersTest.cs" />
     <Compile Include="ConnectFourTest.cs" />
     <Compile Include="FactorialTailTest.cs" />
+    <Compile Include="MahjongPureHandTest.cs" />
     <Compile Include="WarriorSelectMedianTest.cs" />
     <Compile Include="SimplexerTest.cs" />
     <Compile Include="SkyscrapersTest.cs" />
