@@ -52,6 +52,7 @@
     <Compile Include="PrimeStreamingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RailFenceCipherTest.cs" />
+    <Compile Include="TheLiftTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

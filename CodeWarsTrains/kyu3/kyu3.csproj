@@ -46,6 +46,7 @@
     <Compile Include="PrimeStreaming.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RailFenceCipher.cs" />
+    <Compile Include="TheLift.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
