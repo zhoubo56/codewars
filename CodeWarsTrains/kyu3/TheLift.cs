@@ -52,7 +52,7 @@ namespace kyu3
         {
             _capacity = capacity;
             _floorNumber = floorNumber;
-            Direction = -1;
+            Direction = 1;
             CurrentFloor = 0;
         }
 
@@ -93,11 +93,11 @@ namespace kyu3
 
         private void GotoNextFloor()
         {
+            CurrentFloor += Direction;
             if (CurrentFloor == _floorNumber || CurrentFloor == 0)
             {
                 ReverseDirection();
             }
-            CurrentFloor += Direction;
         }
 
         /// <summary>
@@ -119,14 +119,25 @@ namespace kyu3
             while (_waitingPeoples.Count > 0 || _ridingPeoples.Count > 0)
             {
                 var needStop = ExitArrivedPeople();
-                foreach (var currentFloorWaitingPeople in _waitingPeoples.Where(p => p.StandingFloor == CurrentFloor).ToList())
+                if (_ridingPeoples.Count < _capacity)
                 {
-                    if (Direction != currentFloorWaitingPeople.Direction) continue;
-                    if (!EntryOnePeople(currentFloorWaitingPeople)) break;
-                    needStop = true;
-                    _waitingPeoples.Remove(currentFloorWaitingPeople);
+                    foreach (var currentFloorWaitingPeople in _waitingPeoples
+                        .Where(p => p.StandingFloor == CurrentFloor && p.Direction == Direction).ToList())
+                    {
+                        if (!EntryOnePeople(currentFloorWaitingPeople)) break;
+                        needStop = true;
+                        _waitingPeoples.Remove(currentFloorWaitingPeople);
+                    }
                 }
-                if (needStop) stoppedFloors.Add(CurrentFloor);
+                else
+                {
+                    if (_waitingPeoples.Any(p => p.StandingFloor == CurrentFloor && p.Direction == Direction))
+                    {
+                        needStop = true;
+                    }
+                }
+
+                if (needStop && stoppedFloors.Last() != CurrentFloor) stoppedFloors.Add(CurrentFloor);
                 GotoNextFloor();
             }
 
@@ -146,7 +157,7 @@ namespace kyu3
             WannaFloor = wannaFloor;
             Direction = standingFloor > wannaFloor ? -1 : 1;
         }
-        
+
         /// <summary>
         /// 站立的楼层
         /// </summary>
