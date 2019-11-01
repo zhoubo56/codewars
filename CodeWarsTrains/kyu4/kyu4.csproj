@@ -47,6 +47,7 @@
     <Compile Include="FactorialTail.cs" />
     <Compile Include="MahjongPureHand.cs" />
     <Compile Include="SnailSort.cs" />
+    <Compile Include="StripCommentsSolution.cs" />
     <Compile Include="WarriorSelectMedian.cs" />
     <Compile Include="Simplexer.cs" />
     <Compile Include="SkyscrapersV1.cs" />

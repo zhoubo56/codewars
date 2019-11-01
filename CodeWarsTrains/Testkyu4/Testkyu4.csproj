@@ -55,6 +55,7 @@
     <Compile Include="FactorialTailTest.cs" />
     <Compile Include="MahjongPureHandTest.cs" />
     <Compile Include="SnailSortTest.cs" />
+    <Compile Include="StripCommentsTest.cs" />
     <Compile Include="WarriorSelectMedianTest.cs" />
     <Compile Include="SimplexerTest.cs" />
     <Compile Include="SkyscrapersTest.cs" />
