@@ -1,4 +1,4 @@
-var a = require('../kyu7/AlphabeticalAddition');
+var { addLetters } = require('../kyu7/AlphabeticalAddition');
 const { assert } = require('chai');
 
 describe("Fixed tests", () => {
@@ -14,7 +14,7 @@ describe("Fixed tests", () => {
   tests.forEach(test => {
     const str = test[0].map(x => `"${x}"`).join(', ');
     it(`addLetters(${str})`, () => {
-      assert.strictEqual(a.addLetters(...test[0]), test[1]);
+      assert.strictEqual(addLetters(...test[0]), test[1]);
     });
   });
 });
