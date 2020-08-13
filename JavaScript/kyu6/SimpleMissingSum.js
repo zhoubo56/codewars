@@ -6,7 +6,13 @@
  * @return {integer} minumum number that is no a possible sum
  */
 function solve(arr) {
-    return solve_CS(arr);
+    arr = arr.sort((a, b) => a - b);
+    let sum = 0;
+    for (const item of arr) {
+        if (item > sum + 1) break;
+        sum += item;
+    }
+    return sum + 1;
 }
 
 
