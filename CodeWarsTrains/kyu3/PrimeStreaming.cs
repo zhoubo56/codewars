@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.Remoting.Messaging;
 
 namespace kyu3
 {
@@ -9,6 +8,33 @@ namespace kyu3
     /// https://www.codewars.com/kata/prime-streaming-pg-13
     /// </summary>
     public class PrimeStreaming
+    {
+        public static IEnumerable<int> Stream()
+        {
+            var primes = new List<int>() { 2 };
+            yield return 2;
+
+            for (var i = 3; ; i += 2)
+            {
+                if (!Check(i, primes)) continue;
+                primes.Add(i);
+                yield return i;
+            }
+        }
+
+        private static bool Check(int i, IEnumerable<int> primes)
+        {
+            var max = Math.Sqrt(i);
+            foreach (var p in primes)
+            {
+                if (i % p == 0) return false;
+                if (p > max) break;
+            }
+            return true;
+        }
+    }
+
+    public class PrimeStreamingMy
     {
         private const int StreamSize = 1000010;
         private static List<int> _primeList;
