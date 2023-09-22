@@ -5,7 +5,7 @@
   "main": "ReversingProcessTest.js",
   "scripts": {
     "test-all": "mocha ./*/*.js",
-    "test": "mocha ./*/SimpleMissingSumTest.js"
+    "test": "mocha ./*/IsNumberPrimeTest.js"
   },
   "author": "",
   "license": "ISC",
