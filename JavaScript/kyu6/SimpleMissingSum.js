@@ -1,4 +1,3 @@
-
 /**
  * Simple missing sum
  * https://www.codewars.com/kata/5a941f3a4a6b34edf900006f
@@ -15,15 +14,20 @@ function solve(arr) {
     return sum + 1;
 }
 
-
 /**
  * desc sort arr and combinatorial calculate sum value
- * @param {*} arr 
+ * @param {*} arr
  */
 function solve_CS(arr) {
     arr = arr.sort((a, b) => a - b);
     let sumIndex = 1;
-    while (arr.includes(sumIndex) || combinatorialSum(arr.filter((v, i, a) => v < sumIndex).reverse(), sumIndex) == true) {
+    while (
+        arr.includes(sumIndex) ||
+        combinatorialSum(
+            arr.filter((v, i, a) => v < sumIndex).reverse(),
+            sumIndex
+        ) == true
+    ) {
         sumIndex++;
     }
     return sumIndex;
@@ -49,13 +53,13 @@ function combinatorialSum(arr, sum, index = 0, combination = []) {
 
 /**
  * list all combination and check if the sum value exist
- * @param {*} arr 
+ * @param {*} arr
  */
 function solve_C(arr) {
     let sumArr = [];
     for (let n = 1; n <= arr.length; n++) {
         var result = C(arr, n);
-        sumArr.push(...result.map((v, i, a) => eval(v.join('+'))));
+        sumArr.push(...result.map((v, i, a) => eval(v.join("+"))));
     }
 
     let sumIndex = 1;
@@ -67,12 +71,12 @@ function solve_C(arr) {
 }
 
 /**
- * n(number) the combination of arr(Array) 
- * @param {*} arr 
- * @param {*} n 
- * @param {*} index 
- * @param {*} tmp 
- * @param {*} result 
+ * n(number) the combination of arr(Array)
+ * @param {*} arr
+ * @param {*} n
+ * @param {*} index
+ * @param {*} tmp
+ * @param {*} result
  */
 function C(arr, n, index = 0, tmp = [], result = []) {
     if (index + n > arr.length) return;
@@ -89,8 +93,6 @@ function C(arr, n, index = 0, tmp = [], result = []) {
     return result;
 }
 
-
-
 module.exports = {
-    solve
-}
+    solve,
+};

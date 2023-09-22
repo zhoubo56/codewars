@@ -10,20 +10,20 @@ function customChristmasTree(chars, n) {
     let strArray = [];
     let charIndex = 0;
     for (let i = 0; i < n; i++) {
-        let tmp = new Array(n - i).join(' ');
+        let tmp = new Array(n - i).join(" ");
         for (let j = i; j >= 0; j--) {
-            tmp += chars[charIndex++ % chars.length] + ' ';
+            tmp += chars[charIndex++ % chars.length] + " ";
         }
         strArray.push(tmp.substring(0, tmp.length - 1));
     }
     let index = n;
     while (index >= 3) {
-        strArray.push(new Array(n).join(' ') + '|');
+        strArray.push(new Array(n).join(" ") + "|");
         index -= 3;
     }
-    return strArray.join('\n');
+    return strArray.join("\n");
 }
 
 module.exports = {
-    customChristmasTree
-}
+    customChristmasTree,
+};

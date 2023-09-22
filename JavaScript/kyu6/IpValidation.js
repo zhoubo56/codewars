@@ -1,4 +1,3 @@
-
 /**
  * IP Validation
  * https://www.codewars.com/kata/515decfd9dcfc23bb6000006
@@ -6,8 +5,7 @@
  * @return {boolean} is IPV4
  */
 function isValidIP(str) {
-    console.log(str);
-    var strArr = str.split('.');
+    var strArr = str.split(".");
     if (strArr.length != 4) return false;
     for (const s of strArr) {
         if (isNaN(s)) return false;
@@ -22,9 +20,13 @@ function isValidIP(str) {
 }
 
 function isValidIP_clever(str) {
-    return str.split('.').filter(function(v){return v==Number(v).toString() && Number(v)<256}).length==4;
-  }
+    return (
+        str.split(".").filter(function (v) {
+            return v == Number(v).toString() && Number(v) < 256;
+        }).length == 4
+    );
+}
 
 module.exports = {
-    isValidIP
-}
+    isValidIP,
+};

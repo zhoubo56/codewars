@@ -1,16 +1,18 @@
-const { customChristmasTree } = require('../kyu6/CustomChristmasTree');
-const { assert } = require('chai');
+const { customChristmasTree } = require("../kyu6/CustomChristmasTree");
+const { assert } = require("chai");
 
-describe("Basic Tests", function () {
-    it("It should works for basic tests.", function () {
-
-        assert.strictEqual(customChristmasTree("*@o", 3),
+describe("CustomChristmasTreeTest", function () {
+    it("Basic tests", function () {
+        assert.strictEqual(
+            customChristmasTree("*@o", 3),
             `  *
  @ o
 * @ o
-  |`)
+  |`
+        );
 
-        assert.strictEqual(customChristmasTree("*@o", 6),
+        assert.strictEqual(
+            customChristmasTree("*@o", 6),
             `     *
     @ o
    * @ o
@@ -18,9 +20,11 @@ describe("Basic Tests", function () {
  @ o * @ o
 * @ o * @ o
      |
-     |`)
+     |`
+        );
 
-        assert.strictEqual(customChristmasTree("1234", 6),
+        assert.strictEqual(
+            customChristmasTree("1234", 6),
             `     1
     2 3
    4 1 2
@@ -28,17 +32,19 @@ describe("Basic Tests", function () {
  3 4 1 2 3
 4 1 2 3 4 1
      |
-     |`)
+     |`
+        );
 
-        assert.strictEqual(customChristmasTree("123456789", 3),
+        assert.strictEqual(
+            customChristmasTree("123456789", 3),
             `  1
  2 3
 4 5 6
-  |`)
+  |`
+        );
 
-
-
-        assert.strictEqual(customChristmasTree("(|@", 10),
+        assert.strictEqual(
+            customChristmasTree("(|@", 10),
             `         (
         | @
        ( | @
@@ -51,8 +57,7 @@ describe("Basic Tests", function () {
 ( | @ ( | @ ( | @ (
          |
          |
-         |`)
-
-    })
-
-})
+         |`
+        );
+    });
+});

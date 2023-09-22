@@ -1,7 +1,7 @@
-var { consecutiveDucks } = require('../kyu7/ConsecutiveDucks')
-const { assert } = require('chai');
+var { consecutiveDucks } = require("../kyu7/ConsecutiveDucks");
+const { assert } = require("chai");
 
-describe("Consecutive Ducks", () => {
+describe("ConsecutiveDucksTest", () => {
     it("Check Small Values", () => {
         assert.strictEqual(consecutiveDucks(69), true);
         assert.strictEqual(consecutiveDucks(8), false);

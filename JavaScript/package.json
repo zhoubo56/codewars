@@ -4,11 +4,15 @@
   "description": "",
   "main": "ReversingProcessTest.js",
   "scripts": {
-    "test": "mocha ."
+    "test-all": "mocha ./*/*.js",
+    "test": "mocha ./*/SimpleMissingSumTest.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
   }
 }
