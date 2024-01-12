@@ -5,7 +5,7 @@
   "main": "ReversingProcessTest.js",
   "scripts": {
     "test-all": "mocha ./*/*.js",
-    "test": "mocha ./*/IsNumberPrimeTest.js"
+    "test": "mocha ./*/RomanNumeralsEncoderTest.js"
   },
   "author": "",
   "license": "ISC",
