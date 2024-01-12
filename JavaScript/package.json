@@ -5,7 +5,7 @@
   "main": "ReversingProcessTest.js",
   "scripts": {
     "test-all": "mocha ./*/*.js",
-    "test": "mocha ./*/RomanNumeralsEncoderTest.js"
+    "test": "mocha ./*/BreakCamelCase.js"
   },
   "author": "",
   "license": "ISC",
