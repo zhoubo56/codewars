@@ -5,7 +5,7 @@
   "main": "ReversingProcessTest.js",
   "scripts": {
     "test-all": "mocha ./*/*.js",
-    "test": "mocha ./*/BreakCamelCase.js"
+    "test": "mocha ./*/RGB2HexConversionTest.js"
   },
   "author": "",
   "license": "ISC",
