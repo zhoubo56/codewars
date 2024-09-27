@@ -5,7 +5,7 @@
   "main": "ReversingProcessTest.js",
   "scripts": {
     "test-all": "mocha ./*/*.js",
-    "test": "mocha ./*/RGB2HexConversionTest.js"
+    "test": "mocha ./*/RecoverSecretStringFromRandomTripletsTest.js"
   },
   "author": "",
   "license": "ISC",
