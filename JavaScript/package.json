@@ -5,12 +5,13 @@
   "main": "ReversingProcessTest.js",
   "scripts": {
     "test-all": "mocha ./*/*.js",
-    "test": "mocha ./*/FirstNonRepeatingCharacterTest.js"
+    "test": "mocha ./*/LastDigitOfAHugeNumberTest.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "mocha": "^10.2.0"
