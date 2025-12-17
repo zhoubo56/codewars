@@ -1,5 +1,6 @@
 /**
  * Last digit of a huge number
+ * https://www.codewars.com/kata/5518a860a73e708c0a000027
  * @param {Array<number|string|BigInt>} arr - Array of numbers representing x1, x2, ..., xn
  * @returns {number} The last digit of x1 ^ (x2 ^ (x3 ^ (... ^ xn)))
  */

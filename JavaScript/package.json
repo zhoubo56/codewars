@@ -5,7 +5,7 @@
   "main": "ReversingProcessTest.js",
   "scripts": {
     "test-all": "mocha ./*/*.js",
-    "test": "mocha ./*/LastDigitOfAHugeNumberTest.js"
+    "test": "mocha ./*/SoManyPermutationsTest.js"
   },
   "author": "",
   "license": "ISC",
